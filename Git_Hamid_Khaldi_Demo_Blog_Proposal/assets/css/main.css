@@ -1,0 +1,367 @@
+/* CSS RESET SECTION
+------------------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main, video { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+html, body{
+    width: 100%;
+    height: 100%;
+   /* background-image: url("../Resources/Images/background-web-color.jpg");*/
+   background-image: url("../../Resources/images-2/windows_1520x1238.jpg");
+    background-repeat: repeat;
+    font-family: "Lucida Console", sans-serif;
+
+}
+
+/* ===========================
+    GENERAL SECTION
+ =============================*/
+@font-face {
+    font-family: 'another_typewriterregular';
+    src: url('../../Resources/Fonts/another_typewriter/atwriter-webfont.woff2') format('woff2'),
+    url('../../Resources/Fonts/another_typewriter/atwriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.body{
+    font-family: 'another_typewriterregular';
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    /*box-shadow: 10px 10px 10px 10px #888888;*/
+}
+
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+}
+/* ===========================
+    HEADER SECTION
+ =============================*/
+
+header{
+    background: rgba(255,255,255,0);
+    height:150px;
+    margin-bottom: auto;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px #d42541;
+}
+
+.logo{
+    text-transform:capitalize;
+    font-family: 'another_typewriterregular';
+    font-size: 250%;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-bottom: solid 1px #d42541;
+}
+
+.genNav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.topNav li{
+    margin-top:-15px;
+    padding:20px 20px 0 20px;
+    font-size: large;
+}
+
+.genNav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'another_typewriterregular';
+    margin-bottom: 10px;
+    border-bottom: solid 1px #d42541;
+}
+
+.parentLi{
+    display:block;
+}
+
+
+.childList li{
+    display:none;
+}
+
+.parentLi:hover .childList li{
+    display:block;
+}
+/* ===========================
+    MAIN SECTION
+ =============================*/
+.imgHeader{
+    text-transform: capitalize;
+    font-family: 'another_typewriterregular';
+    font-size: 180%;
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 54px;
+    margin-bottom: 90px;
+}
+
+
+.imgContainer{
+    width: 960px;
+    height: 460px;
+    opacity: 1;
+    border: inset white 2px;
+    border-radius: 5px;
+
+
+}
+
+
+.btnHolder{
+    position: absolute;
+    width:960px;
+    top:445px;
+    display: flex;
+    justify-content: space-between;
+}
+.btnHolder button{
+    color:white;
+    background-color:transparent;
+    font-size: 300%;
+    border: transparent;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.blogHeader{
+    text-transform: capitalize;
+    font-family: 'another_typewriterregular';
+    font-size: 200%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+main{
+    margin-top:-30px;
+    background: rgba(255,255,255,0);
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+.introMain{
+    margin: 40px;
+}
+
+.introMain p{
+    font-family: 'another_typewriterregular';
+    font-size:larger;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.linkMain{
+    border-top: 130px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*border: solid black 3px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    /*border-radius: 5px;*/
+}
+.courseLink{/*work with padding top and bottom*/
+    align-items: center;
+    border:solid #1b091e 3px;
+    border-radius: 5px;
+    width:190px;
+    height: 50px;
+    padding: 25px;
+    margin:20px;
+    text-align: center;
+    box-shadow: 0px 0px 30px;
+}
+
+.courseLink a{
+    font-family: 'another_typewriterregular';
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.logo a:hover{
+    color: #d42541;
+    font-size:110%;
+}
+a:hover{
+    color: #d42541;
+    font-size:x-large;
+    border-bottom: solid 1px white;
+}
+
+
+/* ===========================
+    FOOTER SECTION
+ =============================*/
+footer{
+    border-top: solid 1px #d42541;
+    background: rgba(255,255,255,0);
+    height:30px;
+    margin-bottom:20px;
+}
+
+.mainFooter{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'another_typewriterregular';
+    font-size: 80%;
+    color: white;
+
+}
+.mainFooter a{
+    color: white;
+    text-decoration: none;
+    border-bottom: solid 1px #d42541;
+}
+.mainFooter a:hover{
+    color: #d42541;
+    font-size:large;
+    border-bottom: solid 1px white;
+}
+
+
+/* ===========================
+    CONTACT US SECTION
+ =============================*/
+.contactForm{
+    padding: 20px;
+    margin: 50px 50px 100px 50px;
+}
+
+.contactField {
+    text-transform: capitalize;
+    font-family: 'another_typewriterregular';
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contactField input{
+    margin-top: 10px;
+    border-color: white;
+    border-radius: 5px;
+    padding:0 10px;
+    width: 200px;
+    height: 30px;
+
+}
+
+.contactField textarea{
+    margin-top: 10px;
+    border-color:white;
+    border-radius: 5px;
+    padding:0 10px;
+    width: 775px;
+    border:2px solid;
+}
+
+input[placeholder],textarea[placeholder]{
+    font-family: 'another_typewriterregular';
+}
+
+#findUs{
+    margin-left: -70px;
+    margin-top: 20px;
+}
+.googleMap{
+    margin-top:100px;
+    text-align: center;
+}
+
+/* ===========================
+    WEB DESIGN PAGE SECTION
+ =============================*/
+.leftCol{
+    position:fixed;
+    top:15px;
+    left:30px;
+
+}
+
+.fixedLink{
+    display:block;
+    align-items: center;
+    border:solid #1b091e 3px;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    padding: 5px;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 0px 0px 30px;
+}
+
+.fixedLink li{
+    font-family: 'another_typewriterregular';
+    font-size: 40%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fixedLink a{
+    font-family: 'another_typewriterregular';
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+.fixedLink a:hover{
+    color: #d42541;
+    border-bottom: solid 1px white;
+}
+
+.dayMain{
+    border-top: 130px;
+    display:flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+
+/* ===========================
+    GENERAL SECTION
+ =============================*/
