@@ -1,0 +1,179 @@
+/* CSS RESET SECTION
+------------------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main, video { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+html, body{
+    width: 100%;
+    height: 100%;
+   /* background-image: url("../Resources/Images/background-web-color.jpg");*/
+    background-image: url("../Resources/Images/tech3-1484x1353.jg");
+    background-repeat: repeat;
+}
+
+/* ===========================
+    GENERAL SECTION
+ =============================*/
+.body{
+    font-family:"Lucida Console", sans-serif;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    /*box-shadow: 10px 10px 10px 10px #888888;*/
+}
+
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+}
+/* ===========================
+    HEADER SECTION
+ =============================*/
+
+header{
+    background: rgba(255,255,255,0.5);
+    height:150px;
+    margin-bottom: auto;
+}
+
+
+.topNav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo{
+    text-transform:capitalize;
+    font-family: "Book Antiqua";
+    font-size: 250%;
+    color:whitesmoke;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.topNav li{
+    margin-top:105px;
+    padding:20px 20px 0 20px;
+
+}
+
+.topNav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: large;
+}
+/* ===========================
+    MAIN SECTION
+ =============================*/
+.imgHeader{
+    text-transform: capitalize;
+    font-family:"Lucida Console", sans-serif;
+    font-size: 180%;
+    color:whitesmoke;
+    position: relative;
+    top: 60px;
+    left: 54px;
+}
+
+
+.blogHeader{
+    text-transform: capitalize;
+    font-family: "Book Antiqua";
+    font-size: 200%;
+    color:whitesmoke;
+    margin-bottom: 20px;
+}
+
+main{
+    margin-top:-30px;
+    background: rgba(255,255,255,0.7);
+    padding-bottom: 20px;
+}
+
+.contactForm{
+    padding: 20px;
+    margin: 50px 50px 100px 50px;
+}
+
+.contactField {
+    text-transform: capitalize;
+    font-family: "Book Antiqua";
+    color:whitesmoke;
+    margin-bottom: 20px;
+}
+
+.contactField input{
+    margin-top: 10px;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    padding:0 10px;
+    width: 200px;
+    height: 30px;
+
+}
+
+.contactField textarea{
+    margin-top: 10px;
+    border-color:whitesmoke;
+    border-radius: 5px;
+    padding:0 10px;
+    border:2px solid;
+}
+
+
+
+.googleMap{
+    margin-top:100px;
+}
+
+/* ===========================
+    FOOTER SECTION
+ =============================*/
+footer{
+    border-top: solid #888888 1px;
+    background: rgba(255,255,255,0.5);
+    height:50px;
+    margin-bottom:20px;
+}
+
+.mainFooter{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: large;
+    color:whitesmoke;
+
+}
+/* ===========================
+    GENERAL SECTION
+ =============================*/
+
+/* ===========================
+    GENERAL SECTION
+ =============================*/
+
+/* ===========================
+    GENERAL SECTION
+ =============================*/

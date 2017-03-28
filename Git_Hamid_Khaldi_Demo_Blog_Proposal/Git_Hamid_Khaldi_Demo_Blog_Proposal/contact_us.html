@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <meta name="author" content="Hamid Khaldi">
+    <meta name="description" content="This is a blog about my journey into Web Development">
+    <meta name="keywords" content="web design, web development, blog, Training Dragon, starting a new career, London ">
+</head>
+<body>
+    <div id="wrapper">
+        <header class="flexBox">
+            <div class="logo"><a href="index.html"><h1>beykar's demo blog</h1></a></div><!--/logo-->
+            <div class="genNav topNav">
+                <nav>
+                    <ul>
+                        <li><a href="about_us.html">About Us </a></li>
+                        <li><a href="#">Contact Us </a></li>
+                        <li class="parentLi"><a  href="#">Follow Us</a>
+                            <ul class="childList">
+                                <div id="socialMedia">
+                                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                                    <li><a href="https://www.twitter.com/">Twitter</a></li>
+                                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                                </div><!--/socialMedia-->
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div><!--/topNav-->
+        </header><!--/header-->
+        <main>
+            <div class="leftCol">
+                <nav>
+                    <ul>
+                        <li class="fixedLink"><a href="index.html">Home</a></li>
+                        <li class="fixedLink"><a href="introduction_to_programming.html">Intro to Programming</a></li>
+                        <li class="fixedLink"><a href="javascript.html">JavaScript & jQuery</a></li>
+                        <li class="fixedLink"><a href="sql.html">SQL for Beginners</a></li>
+                        <li class="fixedLink"><a href="graphic_design.html">Graphic Design</a></li>
+                        <li class="fixedLink"><a href="advanced_html5_and_css3.html">Advanced HTML5 & CSS3</a></li>
+                        <li class="fixedLink"><a href="php.html">PHP</a></li>
+                        <li class="fixedLink"><a href="c_sharp.html">C#</a></li>
+                        <li class="fixedLink"><a href="asp_dot_net.html">ASP.NET</a></li>
+                    </ul>
+                </nav>
+            </div><!--/leftCol-->
+            <h1 class="imgHeader">contact us & find us</h1>
+            <div class="contactForm">
+                <form name="contactUs" action="" method="post">
+                    <fieldset class="contactField">
+                        <Legend>
+                                <label for="yourFirstName">First Name: </label>
+                        </Legend>
+                        <input id="yourFirstName" type="text" name="firstName" placeholder="enter first name here..."  size="50">
+                    </fieldset>
+                    <fieldset class="contactField">
+                        <legend>
+                            <label for="yourLastName">Last Name: </label>
+                        </legend>
+                        <input id="yourLastName" type="text" name="lastName" placeholder="enter last name here..." size="50">
+                    </fieldset>
+                    <fieldset class="contactField">
+                        <legend>
+                            <label for="yourEmail">email: </label>
+                        </legend>
+                        <input id="yourEmail" type="email" name="email" placeholder="enter email address here..." size="50">
+                    </fieldset>
+                    <fieldset class="contactField">
+                        <legend>
+                            <label for="yourMessage">message: </label>
+                        </legend>
+                        <textarea id="yourMessage" rows="10" cols="100" placeholder="enter message here..."></textarea>
+                    </fieldset>
+                </form><!--/contactForm-->
+
+                <h1 id="findUs" class="imgHeader">find us</h1>
+                <div class="googleMap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6507278744994!2d-0.10915568441092671!
+                    3d51.51962351763065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b38b4d1161f%3A0xb8fb2ba0663d6ea!
+                    2sTraining+Dragon!5e0!3m2!1sen!2suk!4v1484925574826"
+                            width="800" height="450" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </div><!--/googleMap-->
+            </div><!--/contactForm-->
+        </main><!--/main-->
+        <footer>
+            <div class="mainFooter">
+                <a href="http://www.beykarwebs.co.uk/">BeykarWebs &copy 2017 </a>
+            </div><!--/mainFooter-->
+        </footer><!--/footer-->
+    </div><!--/wrapper-->
+</body>
+</html>
